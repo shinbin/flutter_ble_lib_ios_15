@@ -24,7 +24,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'idea'
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 34
 
     defaultConfig {
         minSdkVersion 18
@@ -36,6 +36,6 @@ android {
 }
 
 dependencies {
-    implementation 'androidx.annotation:annotation:1.6.0'
+    implementation 'androidx.annotation:annotation:1.7.1'
     implementation 'com.github.MY01Inc:MultiPlatformBleAdapter:73f8ea5fdf'
 }
