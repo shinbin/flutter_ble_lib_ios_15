@@ -24,7 +24,9 @@ apply plugin: 'com.android.library'
 apply plugin: 'idea'
 
 android {
-    compileSdkVersion 34
+    compileSdk 34
+
+    namespace 'com.polidea.flutter_ble_lib'
 
     defaultConfig {
         minSdkVersion 18
