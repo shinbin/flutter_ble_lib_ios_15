@@ -29,7 +29,7 @@ android {
     namespace 'com.polidea.flutter_ble_lib'
 
     defaultConfig {
-        minSdkVersion 18
+        minSdk 18
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
